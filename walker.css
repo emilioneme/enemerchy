@@ -5,3 +5,10 @@
 @define-color foreground    #E0E0E0;  /* Uniform text/foreground color */
 @define-color background    #1C1C1E;  /* Darker graphite for panels */
 
+.box-wrapper {
+  background: alpha(@base, .3);
+  padding: 20px;
+  
+  border: 1px solid @border;      
+  border-radius: 5px;           
+}
