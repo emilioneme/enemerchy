@@ -1,14 +1,23 @@
-@define-color selected-text #C0C0C0;  /* Light gray highlight for selection */
-@define-color text          #8e8e8e;  /* Main text color - off-white */
-@define-color base          #2C2C2E;  /* Dark graphite background */
-@define-color border        #C0C0C0;  /* Medium gray for borders/focus */
-@define-color foreground    #E0E0E0;  /* Uniform text/foreground color */
-@define-color background    #1C1C1E;  /* Darker graphite for panels */
+@define-color selected-text #A0A0A0;  /* Darker selection highlight */
+@define-color text          #707070;  /* Darker text */
+@define-color base          #1A1A1C;  /* Much darker background */
+@define-color border        #505050;  /* Darker border */
+@define-color foreground    #C0C0C0;  /* Darker foreground */
+@define-color background    #0F0F11;  /* Much darker panels */
 
 .box-wrapper {
-  background: alpha(@base, .3);
-  padding: 20px;
-  
-  border: 1px solid @border;      
+  background: alpha(#000000, 0);  
+  padding: 10px;
+  border: .5px solid @border;      
   border-radius: 5px;           
 }
+
+.search-container {
+  padding: 10px;
+}
+
+.current {
+  font-style: italic;
+  color: #000000;
+  background: #FFFFFF;
+} 
