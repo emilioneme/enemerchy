@@ -61,12 +61,12 @@ background = "#808080"       # Medium gray selection
 # ===============================
 [colors.normal]
 black   = "#1C1C1E"
-red     = "#4A4A4A"
-green   = "#5A5A5A"
-yellow  = "#6A6A6A"
-blue    = "#4B69FF"
+red     = "#d90c95"
+green   = "#3a98f0"
+yellow  = "#9b9b9b"
+blue    = "#727272"
 magenta = "#E736FF"
-cyan    = "#9A9A9A"
+cyan    = "#9a9a9a"
 white   = "#FFFFFF"
 
 # ===============================
