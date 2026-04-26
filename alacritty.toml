@@ -60,7 +60,7 @@ background = "#808080"       # Medium gray selection
 # Normal ANSI Colors (all gray shades)
 # ===============================
 [colors.normal]
-black   = "#1C1C1E"
+black   = "#646464"
 red     = "#d90c95"
 green   = "#3a98f0"
 yellow  = "#9b9b9b"
